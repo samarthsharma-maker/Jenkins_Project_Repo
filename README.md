@@ -1,3 +1,4 @@
+``` mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'fontSize':'14px'}}}%%
 flowchart TB
     %% ============ CLIENTS ============
@@ -113,3 +114,4 @@ flowchart TB
     class SQLDB,ES,REDIS,EVENTDB,S3 store;
     class CW,CT,PROM,GRAF,CONFIG ops;
     class DR dr;
+```
